@@ -1,0 +1,14 @@
+.imgListContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgListContainer .imgItem{
+    width: 33.33%;
+    padding: 10px;
+}
+.imgListContainer .imgItem img{
+    width: 100%;
+    display: block;
+    border: 2px solid white;
+    border-radius: 6px;
+}

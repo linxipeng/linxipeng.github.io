@@ -1196,7 +1196,7 @@
 	</script> -->
 	<script>
 		function showMenuTab(tabindex, e) {
-			e = event || window.event;
+			e = e || window.event;
 			$('#menuTabs').find('.rsSlide').removeClass('rsActiveSlide');
 			$('#menuTabs').find('.rsSlide').eq(tabindex).addClass('rsActiveSlide');
 			$('#tabcontent-header-menu').find('li.item button').removeClass('active');
